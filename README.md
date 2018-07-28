@@ -17,8 +17,7 @@ node server.js
 ```
 Go to http://localhost:3000/index.html in your browser to use the app.
 
-![screenshot 1](https://user-images.githubusercontent.com/23068820/43353713-44ea00e8-925c-11e8-9159-5d74fb75f278.png)
-
-![screenshot 2](https://user-images.githubusercontent.com/23068820/43353714-457997a8-925c-11e8-9fde-3e22d9c4e504.png)
+![screenshot 1](https://user-images.githubusercontent.com/23068820/43353830-8e2c9548-925e-11e8-894a-5d9409516df1.png)
+![screenshot 2](https://user-images.githubusercontent.com/23068820/43353832-8ee95c14-925e-11e8-9677-54080beb4e2c.png)
 
 This project is licensed under the terms of the MIT license.
