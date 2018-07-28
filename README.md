@@ -16,3 +16,7 @@ Navigate to the local-server directory and run the following command on the term
 node server.js
 ```
 Go to http://localhost:3000/index.html in your browser to use the app.
+
+![screenshot 1](https://user-images.githubusercontent.com/23068820/43353713-44ea00e8-925c-11e8-9159-5d74fb75f278.png)
+
+![screenshot 2](https://user-images.githubusercontent.com/23068820/43353714-457997a8-925c-11e8-9fde-3e22d9c4e504.png)
