@@ -5,6 +5,7 @@ The model was built and trained in python using the Keras library. The model was
 
 The backend, built using Node.js and express, serves the saved model files (present in the static directory) to be used by Tensorflow.js
 
+Check out the [demo here](https://www.youtube.com/watch?v=3SGc7YDmzME)
 ## Dependencies
 With Node.js installed, navigate to the local-server directory and run the following command on the terminal:
 ```
