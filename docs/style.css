@@ -1,0 +1,60 @@
+body{
+	width: 700px;
+	text-align: center;
+	margin: 0px auto;
+	color: #111111;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div{
+	width: 300px;
+	height: 300px;
+	margin: 15px 20px;
+	float: left;
+}
+
+button{
+	font-size: 18px;
+	font-family: inherit;
+	text-transform: uppercase;
+	height: 100%;
+	border: 2px solid #111111;
+	border-radius: 10px;
+	background: none;
+	outline: none;
+	margin: 15px 5px;
+	transition: all 0.3s;
+  --webkit-transition: all 0.3s;
+  --moz-transition: all 0.3s;
+}
+
+button:hover{
+	background-color: #111111;
+	color: white;
+}
+
+h1{
+	font-size: 48px;
+	margin: 20px;
+}
+
+p{
+	font-size: 18px;
+}
+
+#prediction{
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 228px;
+	line-height: 300px;
+}
+
+#main-canvas{
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#small-canvas{
+	display: none;
+}
