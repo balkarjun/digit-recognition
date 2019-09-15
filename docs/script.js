@@ -10,7 +10,7 @@ let model;
 
 /* Loads trained model */
 async function init() {
-  model = await tf.loadModel('http://localhost:3000/model.json');
+  model = await tf.loadModel('https://jarbun.github.io/digit-recognition/model.json');
 }
 
 canvas.addEventListener('mousedown', event => {
