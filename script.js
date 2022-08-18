@@ -96,7 +96,7 @@ document.getElementById("erase").addEventListener("click", erase);
 
 /* Clears canvas */
 function erase() {
-    inputBox.fillStyle = "black";
+    inputBox.fillStyle = "#111";
     inputBox.fillRect(0, 0, canvas.width, canvas.height);
     displayBox.innerText = "";
 }

@@ -1,38 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    width: 700px;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
     text-align: center;
-    margin: 0px auto;
-    color: #111111;
+	margin: 30px;
+	color: #111;
 }
 
 h1 {
-    font-size: 48px;
-    margin: 20px;
+    font-size: 46px;
+}
+
+p {
+	margin: 0 20px;
+	color: #444;
 }
 
 section {
     display: flex;
-    height: 300px;
+	flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+	justify-content: center;
     margin: 20px 0;
 }
 
 #prediction {
     width: 300px;
     height: 300px;
-    box-sizing: border-box;
-    border: 1px solid #111;
-    border-radius: 5px;
+    border: 3px solid #ccc;
+	background-color: #f6f6f6;
+	border-radius: 10px;
     font-size: 228px;
     line-height: 300px;
 }
 
 #main-canvas {
-    border-radius: 5px;
     cursor: pointer;
+	margin: 20px;
+	border-radius: 10px;
 }
 
 #small-canvas {
@@ -41,20 +51,17 @@ section {
 
 button {
     font: inherit;
-    text-transform: uppercase;
-    height: 40px;
-    padding: 0 16px;
-    border: 1px solid #111;
-    border-radius: 4px;
-    background: none;
+	font-weight: 500;
+    padding: 8px 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
     outline: none;
     cursor: pointer;
-    transition: all 0.3s;
-    --webkit-transition: all 0.3s;
-    --moz-transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 button:hover {
-    background-color: #111;
+    background-color: #222;
     color: white;
 }

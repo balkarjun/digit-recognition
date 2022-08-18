@@ -4,26 +4,23 @@
         <title>Digit Recognition</title>
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0"></script>
         <link rel="stylesheet" href="style.css" />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Montserrat"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <h1>Digit Recognition</h1>
-        <p>
-            Digit recognition using Convolutional Neural Networks. Built with
-            Keras and TensorFlow.js
-        </p>
-
+        <p>Predicts handwritten digits using Convolutional Neural Networks</p>
+        <p>Built with Keras and TensorFlowJS</p>
+        
         <section>
             <canvas id="main-canvas" width="300" height="300"></canvas>
             <canvas id="small-canvas" width="28" height="28"></canvas>
             <div id="prediction"></div>
         </section>
 
-        <button id="erase">Clear</button>
+        <button id="erase">reset</button>
         <script src="script.js"></script>
     </body>
 </html>
