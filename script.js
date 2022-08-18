@@ -1,6 +1,7 @@
 const canvas = document.getElementById("main-canvas");
 const smallCanvas = document.getElementById("small-canvas");
 const displayBox = document.getElementById("prediction");
+const confidence = document.getElementById("confidence");
 
 const inputBox = canvas.getContext("2d");
 const smBox = smallCanvas.getContext("2d");
@@ -88,7 +89,9 @@ function getPixelData() {
 /* Displays predictions on screen */
 function updateDisplay(predictions) {
     // Find index of best prediction, which corresponds to the predicted value
-    const bestPred = predictions.indexOf(Math.max(...predictions));
+    const maxValue = Math.max(...predictions);
+    const bestPred = predictions.indexOf(maxValue);
+    confidence.innerHTML = `<strong>${Math.round(maxValue * 100)}%</strong> confidence`
     displayBox.innerText = bestPred;
 }
 
@@ -99,6 +102,7 @@ function erase() {
     inputBox.fillStyle = "#111";
     inputBox.fillRect(0, 0, canvas.width, canvas.height);
     displayBox.innerText = "";
+    confidence.innerHTML = "&#8212";
 }
 
 erase();

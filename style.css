@@ -26,7 +26,8 @@ section {
 	flex-wrap: wrap;
     align-items: center;
 	justify-content: center;
-    margin: 20px 0;
+	margin-top: 20px;
+	gap: 20px;
 }
 
 #prediction {
@@ -39,9 +40,14 @@ section {
     line-height: 300px;
 }
 
+#confidence {
+	margin: 16px;
+	font-weight: 500;
+	color: #333;
+}
+
 #main-canvas {
     cursor: pointer;
-	margin: 20px;
 	border-radius: 10px;
 }
 
@@ -59,6 +65,7 @@ button {
     outline: none;
     cursor: pointer;
     transition: all 0.1s;
+	margin-top: 10px;
 }
 
 button:hover {
