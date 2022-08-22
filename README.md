@@ -8,8 +8,8 @@ Check out the [app demo](https://balkarjun.github.io/digit-recognition/) or the 
 
 ## Screenshots
 
-![example 01](https://user-images.githubusercontent.com/23068820/185482063-107c90fc-9b3a-4958-b63d-c7fd991a8504.png)
-![example 02](https://user-images.githubusercontent.com/23068820/185482072-0d294f0f-88b7-4e47-bf57-28dd264cf503.png)
+![example 01](https://user-images.githubusercontent.com/23068820/185958642-fcafc6bc-e88e-4071-bd87-b8db7ac49ccd.png)
+![example 02](https://user-images.githubusercontent.com/23068820/185958649-0c2d3c04-0589-4487-bae4-b72a96d8baee.png)
 
 ## License
 
